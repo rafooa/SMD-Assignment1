@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SMD-Assignment-1</string>
+    <string name="username">username</string>
+    <string name="posts">posts</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="edit_prof">Edit profile</string>
+    <string name="your_name">Your Name</string>
+    <string name="bio_1">Your bio goes here…</string>
+    <string name="bio_2">and here too.</string>
+    <string name="website">yoursite.com</string>
 </resources>
