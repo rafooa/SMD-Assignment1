@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">SMD-Assignment-1</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="email">Email id</string>
+    <string name="pass1">Password</string>
+    <string name="pass2">Retype Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="signup">SIGNUP</string>
+    <string name="exit">EXIT</string>
     <string name="username">username</string>
     <string name="posts">posts</string>
     <string name="followers">followers</string>

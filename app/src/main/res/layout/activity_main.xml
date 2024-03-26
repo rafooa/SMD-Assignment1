@@ -1,18 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Hello World!"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+    android:background="@color/lightBG"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:theme="@style/Theme.Material3.Dark"
+    >
+    <ImageView
+        android:id="@+id/iv_app_logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_action_name"/>
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/f_name"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:textColor="@color/foreText"
+        android:textColorHint="@color/foreText"/>
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/l_name"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:textColor="@color/foreText"
+        android:textColorHint="@color/foreText"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/foreText"
+        android:textColorHint="@color/foreText"/>
+    />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/pass1"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:textColor="@color/foreText"
+        android:textColorHint="@color/foreText"/>
+    />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/pass2"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:textColor="@color/foreText"
+        android:textColorHint="@color/foreText"/>
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:buttonTint="@color/radioFill"
+            android:textColor="@color/foreText"
+            android:text="@string/male"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/radioEmpty"
+            android:textColor="@color/foreText"
+            android:text="@string/female" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarStyle"
+        >
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/signup"
+            android:textColor="@color/foreText"
+            android:layout_gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/exit"
+            android:textColor="@color/foreText"
+            android:layout_gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>

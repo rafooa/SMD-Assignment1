@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="lightBG">#E4E2E2</color>
+    <color name="foreText">#494949</color>
+    <color name="buttonColor">#BE6DF0</color>
+    <color name="radioFill">#2B5AE6</color>
+    <color name="radioEmpty">#8DA6F4</color>
 </resources>
