@@ -22,4 +22,5 @@
     <string name="bio_2">and here too.</string>
     <string name="website">yoursite.com</string>
     <string name="back">Back Button</string>
+    <string name="title_activity_main2">Activity 2</string>
 </resources>
