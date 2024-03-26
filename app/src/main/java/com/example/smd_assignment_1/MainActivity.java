@@ -1,9 +1,11 @@
 package com.example.smd_assignment_1;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import android.os.Bundle;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -9,6 +9,9 @@
     <string name="female">Female</string>
     <string name="signup">SIGNUP</string>
     <string name="exit">EXIT</string>
+    <string name="screen2Title">GUI Demo 21L-7607</string>
+    <string name="tab1">ONE</string>
+    <string name="tab2">TWO</string>
     <string name="username">username</string>
     <string name="posts">posts</string>
     <string name="followers">followers</string>
@@ -18,4 +21,5 @@
     <string name="bio_1">Your bio goes here…</string>
     <string name="bio_2">and here too.</string>
     <string name="website">yoursite.com</string>
+    <string name="back">Back Button</string>
 </resources>
