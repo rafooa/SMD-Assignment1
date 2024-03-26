@@ -103,6 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
         style="?android:attr/buttonBarStyle"
         >
         <Button
@@ -123,7 +124,6 @@
             android:text="@string/exit"
             android:textColor="@color/foreText"
             android:layout_gravity="center_horizontal"
-            android:layout_marginStart="@dimen/default_padding"
             style="?android:attr/buttonBarButtonStyle"
             />
     </LinearLayout>
